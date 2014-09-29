@@ -7,10 +7,10 @@ define('PAGE_TITLE', 'forkort');
 define('PAGE_URL', 'forkort.no');
 
 // MySQL connection info
-define('MYSQL_USER', 'isu_only');
-define('MYSQL_PASS', 'CM7mBw5J');
-define('MYSQL_DB', 'forkort_no');
-define('MYSQL_HOST', 'query.forkort.no');
+define('MYSQL_USER', '***');
+define('MYSQL_PASS', '***');
+define('MYSQL_DB', '***');
+define('MYSQL_HOST', '***');
 
 // MySQL tables
 define('URL_TABLE', 'forkort');
