@@ -1,0 +1,11 @@
+
+RewriteEngine On
+RewriteRule ^images/.*$ - [PT]
+RewriteRule ^css/.*$ - [PT]
+RewriteRule ^recents.php - [PT]
+RewriteRule ^api/.*$ - [PT]
+RewriteRule ^api/get/([a-zA-Z0-9]+) api/get.php?id=$1
+RewriteRule ^api/add/(.{}) api/add.php?url=$1
+RewriteRule ^api/.*$ - [PT]
+RewriteRule ^api/.*$ - [PT]
+RewriteRule (.*) index.php
